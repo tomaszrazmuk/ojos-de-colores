@@ -1,0 +1,89 @@
+<div class="sponsors">
+    <h3>partnerzy</h3>
+    <div class="sponsors-positioner">
+        <div class="sponsors-text">
+            <!-- <p>Partner wydarzenia – Orlen</p> -->
+            <img src="http://static.prsa.pl/b96264e5-1ab5-454f-bb88-698fbef1b19d.file">
+        </div>
+        <div class="sponsors-text">
+            <!-- <p>Partner wydarzenia – Lotto</p> -->
+            <img src="//static.prsa.pl/5b33f50e-575e-4f24-82bb-b37b5cb8f8ac.file">
+        </div>
+        <div class="sponsors-text">
+            <!-- <p>Partner wydarzenia – Tauron</p> -->
+            <img class="special-img" src="//static.prsa.pl/0dd1a38f-f5d9-45b4-9397-2844f1d56c26.file">
+        </div>
+        <div class="sponsors-text patron-text">
+            <p>Patronat honorowy</p>
+            <img src="//static.prsa.pl/493d3699-7015-413a-b809-d945e06fe255.file">
+        </div>
+    </div>
+</div>
+
+<style>
+    .sponsors h3 {
+        font-size: 28px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .sponsors-positioner p {
+        font-size: 24px;
+        /* text-transform: uppercase; */
+        text-align: center;
+    }
+
+    .sponsors-positioner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .sponsors img {
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+        /* margin: 50px 50px; */
+    }
+
+    .sponsors .special-img {
+        max-width: 180px !important;
+        margin-top: 70px;
+    }
+
+    .sponsors-text {
+        /* height: 450px; */
+        width: 32%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .patron-text {
+        width: 100% !important;
+    }
+
+    @media(max-width:992px) {
+        .patron-text {
+            width: 100%;
+        }
+
+        .sponsors img {
+            max-width: 170px;
+        }
+    }
+
+    @media(max-width:768px) {
+        .sponsors-text {
+            width: 100%;
+            height: auto;
+        }
+
+        .sponsors img {
+            margin: 25px 25px;
+        }
+    }
+</style>
